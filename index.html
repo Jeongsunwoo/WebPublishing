@@ -7,6 +7,37 @@
     <title>스파르타코딩클럽 | HTML 기초</title>
 </head>
 
+<style>
+.box {
+    background-color: green;
+    color: white;
+
+    width: 800px;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    background-color: red;
+
+    width: 300px;
+    height: 200px;
+
+    margin-bottom: 20px;
+}
+
+.second {
+    background-color: blue;
+
+    width: 200px;
+    height: 200px;
+}
+</style>
+
 <body>
     <!-- 구역을 나누는 태그들 -->
     <div>나는 구역을 나누죠</div>
@@ -15,6 +46,11 @@
         <li> bullet point!1 </li>
         <li> bullet point!2 </li>
     </ul>
+
+    <div class="box">
+        <div class="first">첫 번째 구역</div>
+        <div class="second">두 번째 구역</div>
+    </div>
 
     <!-- 구역 내 콘텐츠 태그들 -->
     <h1>h1은 제목을 나타내는 태그입니다. 페이지마다 하나씩 꼭 써주는 게 좋아요. 그래야 구글 검색이 잘 되거든요.</h1>
